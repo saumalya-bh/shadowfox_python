@@ -479,7 +479,7 @@ I would like to express my gratitude to ShadowFox for providing this internship 
 
 👤 Author
 
-Soumalya Bhattacherjee
+Saumalya Bhattacherjee
 
 ⭐ Repository Summary
 
