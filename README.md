@@ -1,7 +1,3 @@
-Absolutely — here is a cleaner, more professional, GitHub-friendly reformatted version of your `README.md`, while preserving your original content and details.
-
- Reformatted README.md
-
 # 🐍 ShadowFox Python Foundations
 
  ### Beginner Level | Python Development Internship | ShadowFox
