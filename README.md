@@ -1,163 +1,490 @@
-# 🐍 ShadowFox Python Foundations
+🐍 ShadowFox Python Foundations
 
-Welcome to the **ShadowFox Python Foundations** repository. This repository contains the completed **Beginner Level** programming tasks developed as part of the **ShadowFox Python Development Internship**.
+Beginner Level | Python Development Internship | ShadowFox
 
-The implementation demonstrates fundamental programming concepts in Python, core logic development, sequence operations, and basic problem solving.
+A practical collection of foundational Python programming tasks completed as part of the ShadowFox Python Development Internship.
 
----
+This repository contains the completed Beginner Level tasks and demonstrates fundamental Python programming concepts, logical problem solving, sequence manipulation, conditional statements, iteration, and basic coding practices.
 
-## 📌 Project Overview
+📖 Contents
 
-This repository documents and showcases practical Python foundational tasks completed during the internship. All tasks are modularized and cover essential language features, clean coding practices, and core programming constructs.
+Project Summary
 
-The repository confirms the completion of the **Beginner Level** track, covering:
-- Variables & Data Types
-- Number Operations & Formatting
-- List Manipulations
-- Conditional Branching (`if` / `elif` / `else`)
-- Iteration & Control Structures (`for` loops)
+Internship Overview
 
----
+Beginner Level Completion
 
-## 🏢 About the Internship
+Task Breakdown
 
-The **ShadowFox Python Development Internship** is a practical, task-driven learning program designed to build strong programming fundamentals and real-world implementation capabilities. Through hands-on coding exercises, the internship focuses on strengthening core Python proficiency, algorithmic thinking, and clean project organization.
+01 — Variables
 
----
+02 — Numbers
 
-## 🎯 Beginner Level Tasks
+03 — Lists
 
-All five tasks for the Beginner Level have been completed:
+04 — If Conditions
 
-| Task | Description |
-|------|-------------|
-| Variables | Variables, data types, Python keywords, and Simple Interest calculation |
-| Numbers | Number formatting, pond area/water calculation, and speed calculation |
-| Lists | List manipulation, adding/replacing/moving elements, sorting, and indexing |
-| If Conditions | BMI classification and city/country conditional checks |
-| For Loops | Dice simulation and 100 jumping-jacks workout logic |
+05 — For Loops
 
----
+Repository Structure
 
-## 📝 Task Details
+Technologies & Tools
 
-### 1. Variables (`Beginner Task/Variables/variable.py`)
-- **Data Types & Constants:** Calculated the value of $\pi$ ($22/7$) and verified its floating-point data type using `type()`.
-- **Reserved Keywords:** Evaluated variable naming restrictions by testing Python keywords (e.g., `for`), verifying keyword syntax errors.
-- **Arithmetic Computation:** Implemented Simple Interest formula calculation ($SI = \frac{P \times R \times T}{100}$) based on principal, rate, and time parameters.
+Learning Outcomes
 
-### 2. Numbers (`Beginner Task/Numbers/numbers.py`)
-- **Number Representation:** Formatted numerical values into octal representation using the `format()` function.
-- **Geometry & Calculations:** Computed the surface area of a circular pond ($A = \pi \times r^2$).
-- **Capacity Estimation:** Calculated total water capacity given a water density rate of 1.4 liters per square meter.
-- **Unit & Speed Calculation:** Converted time from minutes to seconds and derived speed in meters per second ($v = \frac{d}{t}$).
+Testing & Execution
 
-### 3. Lists (`Beginner Task/List/list.py`)
-- **Collection Sizing:** Initialized a superhero team list and measured total elements using `len()`.
-- **Modifying Elements:** Appended new members to the list using `.append()`.
-- **Positioning & Reordering:** Reordered team leadership by removing and re-inserting elements at specific index positions (`.remove()`, `.insert()`).
-- **Targeted Insertion:** Located element positions with `.index()` to dynamically insert items between specific members.
-- **Sorting:** Applied `.sort()` for alphabetical arrangement and identified the leading member.
+Demo Video
 
-### 4. If Conditions (`Beginner Task/IF Condition/condition.py`)
-- **BMI Calculator:** Calculated Body Mass Index from user-supplied height and weight ($BMI = \frac{\text{weight}}{\text{height}^2}$) and classified health ranges (`Underweight`, `Normal`, `Overweight`, `Obesity`).
-- **Membership Validation:** Used the `in` operator to verify whether a user-entered city exists within specific predefined geographic lists.
-- **Multi-Condition Checks:** Utilized compound logical operators (`and`) to evaluate whether two user-input cities belong to the same country (Australia, UAE, or India).
+Final Submission
 
-### 5. For Loops (`Beginner Task/For Condition/for.py`)
-- **Dice Roll Simulation:** Simulated 20 rolls of a standard 6-sided dice using Python's `random.randint()`. Tracked frequencies of rolls equal to 6 and 1, and counted instances of consecutive 6s.
-- **Interactive Workout Routine:** Implemented a jumping jacks routine tracking progress in 10-rep sets up to 100. Included interactive user prompts handling fatigue status, conditional workout termination, and remaining count calculations.
+Acknowledgement
 
----
+Author
 
-## 🏗️ Repository Architecture
+📌 Project Summary
 
-The project is structured into modular task directories:
+The ShadowFox Python Foundations repository documents the practical programming exercises completed during the Beginner Level of the internship.
 
-```text
+The tasks are organized into separate modules, with each script focusing on specific Python fundamentals and programming concepts.
+
+Concepts Covered
+
+Variables and data types
+
+Python keywords
+
+Arithmetic calculations
+
+Number representation and formatting
+
+Geometry and unit conversions
+
+List manipulation
+
+Indexing and sorting
+
+Conditional branching using if, elif, and else
+
+Logical operators
+
+Iteration using for loops
+
+Counters and state tracking
+
+The break control statement
+
+User input and interactive programs
+
+Basic problem-solving and algorithmic thinking
+
+🏢 Internship Overview
+
+The ShadowFox Python Development Internship is a practical, task-oriented learning program designed to develop strong programming fundamentals and real-world implementation skills.
+
+The internship uses hands-on coding exercises to strengthen:
+
+Core Python proficiency
+
+Algorithmic thinking
+
+Problem-solving abilities
+
+Clean coding practices
+
+Project organization
+
+Practical implementation skills
+
+🎯 Beginner Level Completion
+
+All five Beginner Level tasks have been completed.
+
+#	Task	Main Concepts
+1	Variables	Variables, data types, Python keywords, and Simple Interest calculation
+2	Numbers	Number formatting, pond area/water calculation, and speed calculation
+3	Lists	List manipulation, adding/replacing/moving elements, sorting, and indexing
+4	If Conditions	BMI classification and city/country conditional checks
+5	For Loops	Dice simulation and 100 jumping-jacks workout logic
+📝 Task Breakdown
+01 — Variables
+
+File: Beginner Task/Variables/variable.py
+
+This task focuses on variables, data types, Python's reserved keywords, and arithmetic computation.
+
+🔹 Data Types & Constants
+
+Calculated the value of π using 22/7.
+
+Verified that the resulting value has a floating-point data type using type().
+
+🔹 Reserved Keywords
+
+Explored Python variable naming restrictions.
+
+Tested reserved Python keywords such as for.
+
+Verified that attempting to use a reserved keyword as a variable produces a syntax error.
+
+🔹 Simple Interest Calculation
+
+Implemented the Simple Interest formula:
+
+𝑆
+𝐼
+=
+𝑃
+×
+𝑅
+×
+𝑇
+100
+
+The calculation uses:
+
+P — Principal
+
+R — Rate
+
+T — Time
+
+02 — Numbers
+
+File: Beginner Task/Numbers/numbers.py
+
+This module covers number formatting, geometry-based calculations, capacity estimation, unit conversion, and speed calculation.
+
+🔹 Number Representation
+
+Converted numerical values into octal representation.
+
+Used Python's format() function for the conversion.
+
+🔹 Pond Area
+
+Calculated the surface area of a circular pond using:
+
+𝐴
+=
+𝜋
+×
+𝑟
+2
+
+where r represents the radius of the pond.
+
+🔹 Water Capacity
+
+Estimated the total water capacity using a water density rate of:
+
+1.4 liters per square meter
+
+🔹 Speed Calculation
+
+Converted time from minutes into seconds.
+
+Calculated speed in meters per second using:
+
+𝑣
+=
+𝑑
+𝑡
+
+where:
+
+v = speed
+
+d = distance
+
+t = time
+
+03 — Lists
+
+File: Beginner Task/List/list.py
+
+This task demonstrates Python list operations through a superhero team example.
+
+🔹 Collection Sizing
+
+Created a superhero team list.
+
+Determined the total number of elements using len().
+
+🔹 Adding Elements
+
+Added new team members using .append().
+
+🔹 Reordering Elements
+
+Removed existing members with .remove().
+
+Reinserted members at specific positions using .insert().
+
+Used these operations to reorder the team leadership.
+
+🔹 Targeted Insertion
+
+Located specific members using .index().
+
+Dynamically inserted new elements between selected team members.
+
+🔹 Sorting
+
+Applied .sort() to arrange the team alphabetically.
+
+Identified the leading member after sorting.
+
+04 — If Conditions
+
+File: Beginner Task/IF Condition/condition.py
+
+This module demonstrates conditional logic, user input, membership validation, and compound conditions.
+
+🔹 BMI Calculator
+
+Calculated Body Mass Index using:
+
+𝐵
+𝑀
+𝐼
+=
+weight
+height
+2
+
+The calculated BMI is classified into the following categories:
+
+Underweight
+
+Normal
+
+Overweight
+
+Obesity
+
+The values are obtained from user-supplied height and weight.
+
+🔹 City Membership Validation
+
+Used the in operator to check whether a user-entered city exists in predefined geographic lists.
+
+🔹 Country-Based Conditions
+
+Used compound logical conditions with the and operator to determine whether two user-provided cities belong to the same country.
+
+The checks cover:
+
+Australia
+
+UAE
+
+India
+
+05 — For Loops
+
+File: Beginner Task/For Condition/for.py
+
+This task demonstrates iteration, random number generation, counters, state tracking, user interaction, and control flow.
+
+🎲 Dice Roll Simulation
+
+Simulated 20 rolls of a standard 6-sided dice.
+
+Used Python's random.randint().
+
+Counted the number of rolls resulting in 6.
+
+Counted the number of rolls resulting in 1.
+
+Tracked occurrences of consecutive 6s.
+
+🏋️ Interactive Jumping-Jacks Routine
+
+Implemented an interactive workout routine consisting of 100 jumping jacks.
+
+The program:
+
+Tracks progress in sets of 10 repetitions.
+
+Displays workout progress.
+
+Asks the user about fatigue during the routine.
+
+Handles the user's response through conditional logic.
+
+Terminates the workout when required.
+
+Calculates and displays the remaining number of jumping jacks.
+
+🏗️ Repository Structure
+
+The project follows a modular directory structure, with each Beginner Level task stored independently.
+
 shadowfox-python-foundations/
+│
 ├── Beginner Task/
+│   │
 │   ├── For Condition/
 │   │   └── for.py
+│   │
 │   ├── IF Condition/
 │   │   └── condition.py
+│   │
 │   ├── List/
 │   │   └── list.py
+│   │
 │   ├── Numbers/
 │   │   └── numbers.py
+│   │
 │   └── Variables/
 │       └── variable.py
+│
 └── README.md
-```
 
-Each script is self-contained and can be executed independently.
 
----
+Each Python script is self-contained and can be executed independently.
 
-## 🛠️ Technologies & Tools
+🛠️ Technologies & Tools
+Category	Technology / Tool
+Programming Language	Python 3
+Standard Library	random
+Development Environment	Visual Studio Code
+Version Control	Git & GitHub
+💡 Learning Outcomes
 
-- **Programming Language:** Python 3
-- **Standard Library:** `random`
-- **Development Environment:** Visual Studio Code
-- **Version Control:** Git & GitHub
+Completion of these tasks provided practical experience with the following Python concepts:
 
----
+Python Fundamentals
 
-## 💡 Key Learning Outcomes
+Python syntax
 
-- Mastery of fundamental Python syntax, data types, and operators.
-- Practical experience with sequence operations and list methods.
-- Constructing multi-branch decision trees and input-driven conditionals.
-- Implementing loops, counters, state tracking, and control statements (`break`).
-- Structuring clean, readable, and reproducible code for technical submission.
+Variables
 
----
+Data types
 
-## 🧪 Testing & Verification
+Operators
 
-Each module can be verified by running the respective script directly from the repository root:
+Python keywords
 
-```bash
-# Run Variables task
+Collections
+
+Lists
+
+Adding and removing elements
+
+Inserting elements
+
+Indexing
+
+Sorting
+
+Measuring collection size
+
+Conditional Logic
+
+if
+
+elif
+
+else
+
+in
+
+and
+
+Input-driven conditions
+
+Multi-branch decision structures
+
+Iteration & Control Flow
+
+for loops
+
+Counters
+
+State tracking
+
+Random number generation
+
+break
+
+Interactive loops
+
+Programming Practices
+
+Writing readable code
+
+Organizing tasks into modules
+
+Building reproducible implementations
+
+Applying programming logic to practical problems
+
+🧪 Testing & Execution
+
+Every task can be executed independently from the repository root.
+
+Variables
 python "Beginner Task/Variables/variable.py"
 
-# Run Numbers task
+Numbers
 python "Beginner Task/Numbers/numbers.py"
 
-# Run Lists task
+Lists
 python "Beginner Task/List/list.py"
 
-# Run IF Conditions task
+If Conditions
 python "Beginner Task/IF Condition/condition.py"
 
-# Run For Loops task
+For Loops
 python "Beginner Task/For Condition/for.py"
-```
 
-Each script has been tested and verified for correct output formatting, input handling, and logical flow.
 
----
+Each script has been tested and verified for:
 
-## 🎥 Demo Video
+Correct output formatting
 
-A 3–5 minute self-recorded video demonstrating the completed Beginner Level tasks is available at the link below:
+Input handling
 
-[Watch the Beginner Level Demo Video](https://drive.google.com/file/d/1XRYKUvem6BGH-majMnIoxNahQy2hA8O3/view?usp=sharing)
+Logical flow
 
----
+🎥 Demo Video
 
-## 📦 Final Submission
+A 3–5 minute self-recorded demonstration video showcasing the completed Beginner Level tasks is available through the link below.
 
-This repository contains the completed Beginner Level Python tasks for the ShadowFox Python Development Internship. The code implementations adhere to the assigned task guidelines, and the walkthrough of all completed tasks is provided through the linked demo video.
+▶️ Watch the Beginner Level Demo Video
 
----
+The demonstration provides a walkthrough of the completed tasks and their implementations.
 
-## 🙏 Acknowledgement
+📦 Final Submission
 
-I would like to express my gratitude to **ShadowFox** for this internship opportunity and for providing practical, well-structured tasks that strengthen core Python development skills.
+This repository represents the completed Beginner Level Python tasks for the ShadowFox Python Development Internship.
 
----
+The submission includes:
 
-## 👤 Author
+All five completed Beginner Level task modules
 
-**Soumalya Bhattacherjee**
+Organized and modular Python scripts
+
+Implementations following the assigned task guidelines
+
+A walkthrough of the completed tasks through the linked demo video
+
+The code implementations adhere to the assigned requirements and demonstrate the Python fundamentals covered throughout the Beginner Level track.
+
+🙏 Acknowledgement
+
+I would like to express my gratitude to ShadowFox for providing this internship opportunity and for designing practical, well-structured programming tasks that help strengthen fundamental Python development skills.
+
+👤 Author
+
+Soumalya Bhattacherjee
+
+⭐ Repository Summary
+
+ShadowFox Python Foundations represents the completion of the Beginner Level of the ShadowFox Python Development Internship, covering five practical task areas:
+
+Variables → Numbers → Lists → If Conditions → For Loops
+
+The repository demonstrates foundational Python knowledge through practical calculations, collection manipulation, conditional logic, iteration, user interaction, and problem-solving exercises.
